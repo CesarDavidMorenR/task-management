@@ -45,7 +45,7 @@ body {
 }
 
 /*! Main Component */
-.mainForm {
+#mainForm {
   background-color: var(--color-bg-container);
   height: 180px;
   width: 100%;

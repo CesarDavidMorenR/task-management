@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Principal</title>
     <link rel="stylesheet" href="./sass/main.css" />
+    <script src="./javascript/Submit.js" defer></script>
   </head>
-
+<!-- https://www.youtube.com/watch?v=B-ytMSuwbf8 -->
   <body>
     <section class="mainCointainer">
       <header class="mainHeader">
@@ -16,8 +17,7 @@
       </header>
 
       <section class="mainBody">
-        <!-- TODO -->
-        <form class="mainForm">
+        <form id="mainForm" action="POST">
           <section class="titleComponent">Create</section>
           <div class="whiteSpace"></div>
           <section class="createComponent">
@@ -37,7 +37,7 @@
                   <label for="description">Description</label>
                   <input type="text" name="description" id="description" />
                 </div>
-                <input type="button" value="submit" id="submit" />
+                <input type="button" value="submit" id="sent-btn" />
               </div>
             </section>
          </form>
