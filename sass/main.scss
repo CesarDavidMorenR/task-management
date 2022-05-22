@@ -7,13 +7,20 @@
   
 }
 
+/* General Styles */
+
 :root{
   --color-bg-container: #CEF5F2;
   --color-text: #004A1F;
   --bg-color: #85E7AE;
   font-size: 16px;
-
 }
+
+.whiteSpace {
+  background-color: white;
+  height: 5px;
+}
+
 
 /*! Main Container  */
 
@@ -49,6 +56,7 @@ body {
 .mainForm {
   background-color: var(--color-bg-container);
   height: 180px;
+  width: 100%
   // margin-bottom: 50px;
   
 }
@@ -79,38 +87,22 @@ body {
   font-weight: bold;
 }
 
-.whiteSpace {
-  background-color: white;
-  height: 5px;
+
+/* TO-DO SECTION */
+
+.todo_section {
+  margin: 0 auto;
+  width: 50%;
 }
 
-table {
-  color: var(--color-text);
-  background-color: var(--color-bg-container);
-  padding-right: 100px;
-  border-collapse: collapse;
+
+/* DONDE SECTION */
+
+.done_section {
+  width: 30rem;
+  width: 50%;
 }
 
-button {
-  color: var(--color-text);
-  background-color: #39e272;
-  border-bottom: 100px;
-  float: right;
-  width: 250px;
-  height: 50px;
-}
-
-td {
-  height: 150px;
-  padding: 0.4rem;
-  position: relative;
-}
-
-td.borde {
-  border-bottom: 5px solid rgb(255, 255, 255);
-  width: 100%;
-  padding-right: 20px;
-}
 
 /*! Footer */
 
@@ -120,4 +112,5 @@ td.borde {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
